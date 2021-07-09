@@ -20,11 +20,12 @@
     grid-area: main;
     display: grid;
     grid-template-areas: "main-text main-text"
-                        "main-one main-one"
-                        "main-two main-three";
+                        "main-one main-two"
+                        "main-three main-three";
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-
+    grid-template-rows: 3fr 1fr 1fr;
+    padding: 0 25px;
+    grid-gap: 15px;
 }
 
 .main-item {

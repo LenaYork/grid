@@ -7,7 +7,7 @@
                         "main main aside"
                         "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20% 1fr 20%;
+    grid-template-rows: 15% 1fr 15%;
 }
 
 .header {
@@ -58,6 +58,9 @@
     display: grid;
     grid-template-areas: "footer-one footer-two footer-three footer-four";
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    grid-gap: 15px;
+    padding: 0 15px;
 }
 
 .footer-item {
@@ -82,4 +85,8 @@
 
 h2 {
     text-align: center;
+}
+
+.header, .main, .aside, .footer {
+    align-items: center;
 }
